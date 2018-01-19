@@ -1,4 +1,4 @@
-##**House Sales Price Prediction**##
+## **House Sales Price Prediction** ##
 
 `*You want to buy/sell a house. You are at the right place !! Uhhh! I can predict the estimated Sales Price!*`
 

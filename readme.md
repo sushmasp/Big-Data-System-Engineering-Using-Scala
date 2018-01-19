@@ -13,7 +13,7 @@ House Prices Dataset on Kaggle:
 
 ### *Pre-Processing:* ###
 We used Spark SQL for loading and pre-processing the data. We removed some of the columns which are not much important. Reformatted few features, combined few features to generate a new feature and simulated few features which we felt important.We replaced the missing/NA values with mean/most occurred value of the respective feature.After joining with zipcode and states data, we saved the prepared model in MySQL.(Before saving, created the database 'scala_project'.)
-The data can be found at [Data](Scala Code/data/Raw)
+The data can be found at [Data](Scala%20Code/data/Raw)
 
 
 ### *Building Prediction Models:* ###

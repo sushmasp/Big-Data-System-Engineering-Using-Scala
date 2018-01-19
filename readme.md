@@ -6,11 +6,13 @@
 
 **Data:**
 House Prices Dataset on Kaggle:
+
 *https://www.kaggle.com/c/house-prices-advanced-regression-techniques*
 *https://www.kaggle.com/harlfoxem/housesalesprediction*
+
 The data contains around 80 features. Used ZipCode and States dataset to fetch city and stateinformation for Kaggle data.
 
-###*Pre-Processing:*###
+###Pre-Processing:###
 We used Spark SQL for loading and pre-processing the data. We removed some of the columns which are not much important. Reformatted few features, combined few features to generate a new feature and simulated few features which we felt important.We replaced the missing/NA values with mean/most occurred value of the respective feature.After joining with zipcode and states data, we saved the prepared model in MySQL.(Before saving, created the database 'scala_project'.)
 The data can be found at [Preprocessing Data]()
 
